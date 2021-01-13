@@ -2,9 +2,11 @@ import React from 'react'
 
 const Projcets = () => {
     return (
-        <div>
-            <p>projects</p>
-        </div>
+        <>
+            <h2>projects</h2>
+
+
+        </>
     )
 }
 
