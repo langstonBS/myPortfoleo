@@ -4,13 +4,13 @@ import './Footer.css'
 export default function Footer() {
     return (
         <>
-            <div className="outFoot">
-                <h6>Langston Beckwith-Stanley</h6>
-                <ul className="navContainer">
+            <footer className="outFoot">
+                <ul className="footContaner">
+                    <li className="FootElement"><h6>Langston Beckwith-Stanley</h6></li>
                     <li className="FootElement">Github</li>
                     <li className="FootElement">LinkedIn</li>
                 </ul>
-            </div>
+            </footer>
         </>
 
     )
