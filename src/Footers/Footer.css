@@ -1,20 +1,13 @@
-.outFoot {
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.outFoot {   
     background-color: #333;
     display: flex;
     align-items: center;
-    position:absolute;
-    width: 100%;
+    justify-content: center;
+    
   }
 
   .footContaner {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    max-width: 50%;
     overflow: hidden;
     background-color: #333;
   }

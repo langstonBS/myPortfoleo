@@ -1,0 +1,112 @@
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+   
+          li {
+            float: left;
+            font-size: 2rem;
+
+          }
+
+          .navContainer{
+            List-style-type: none;
+          }
+          
+        .navElements {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+          }
+        
+          .nameElement {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          /* Change the link color to #111 (black) on hover */
+          li a:hover {
+            background-color: #111;
+          }
+        
+
+
+
+  }
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    nav {
+        list-style-type: none;
+        margin: 0rem;
+        padding: 0rem;
+        border: 0rem;
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+          ul{
+            margin: 0rem;
+            padding: 0rem;
+            border: 0rem;
+          }
+        
+
+            li {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 2rem;
+
+            
+            }
+
+            li:hover {
+              background-color: #111;
+            }
+          
+            
+          .NavElements {
+              display: block;
+              color: white;
+              text-align: center;
+
+              text-decoration: none;
+              float: left;
+            }
+          
+            .NameElement {
+              display: block;
+              color: white;
+              text-align: center;
+
+              text-decoration: none;     
+            }
+      }
+      
+    
+      
+
+    
+  }
