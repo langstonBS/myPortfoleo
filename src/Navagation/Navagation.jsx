@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import './Navagation.css'
+import Style from './Navagation.scss'
+
 
 
 const NavStyle = {
     fontWeight: "bold",
-    color: "red",
+    color: "yellow",
     textAlign: "center"
 }
 
@@ -13,38 +14,28 @@ const NavStyle = {
 
 const Navagation = () => {
     return (
-        <>
-            <nav>
-                <ul className="navContainer">
-                    <li className="NameElement" >
-                        Langston's Portfolieo
+        <nav className={Style.Navagation}>
+            <ul className="navContainer">
+                <li className="nameElement" >
+                    Langston's Portfolieo
                     </li>
-                    <li>
-                        <NavLink
-                            className="NavElements"
-                            exact to="/"
-                            activeStyle={NavStyle}>
-                            Home
+                <li>
+                    <NavLink
+                        className="navElements"
+                        exact to="/"
+                        activeStyle={NavStyle}>
+                        Home
                         </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            className="NavElements"
-                            exact to="/About"
-                            activeStyle={NavStyle}>
-                            About
+                </li>
+                <li>
+                    <NavLink className="navElements"
+                        exact to="/Projects"
+                        activeStyle={NavStyle}>
+                        Projects
                     </NavLink>
-                    </li>
-                    <li>
-                        <NavLink className="NavElements"
-                            exact to="/Projects"
-                            activeStyle={NavStyle}>
-                            Projects
-                    </NavLink>
-                    </li>
-                </ul>
-            </nav>
-        </>
+                </li>
+            </ul>
+        </nav>
     );
 }
 
