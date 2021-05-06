@@ -1,15 +1,87 @@
 
-@media  (min-width: 900px) {
 
+@media (min-width: 1500px) {
+
+
+    
+    .outerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr .5fr 1fr;
+    justify-content: center;
+    
+
+
+    h1{
+        text-align: center;
+        font-size: 5.5rem;
+    }
+
+    p{
+        font-size: 3rem;
+    }
+    li{
+        font-size: 3.5rem;
+        list-style: none;
+    }
+    ul{
+        padding: 0;
+    }
+    h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .headingText{
+        font-size: 6rem;
+    }
+
+        .introduction {
+            grid-row: 1;
+            grid-column: 3 / span 4;
+            place-items: center stretch;
+        
+        }
+        
+        .knownSkills{
+            grid-row:2;
+            grid-column: 6 / span 8;
+        }
+
+        .learningSkills{
+            grid-row:3;
+            text-align: left;
+            grid-column: 2 / span 3;
+           
+        }
+
+        .aboutMe {
+            grid-row: 4;
+            grid-column: 2 / span 2;
+            grid-column: 3 / span 4;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+@media  (min-width: 900px) and (max-width: 1500px) {
 
 .outerGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: .5fr 1fr .5fr 1fr;
     justify-content: center;
-    max-width: 1400px;
+    max-width: 1500px;
+
 
     h1{
+        text-align: center;
         font-size: 2.75rem;
     }
 
@@ -60,6 +132,8 @@
 }
 
 @media  (max-width: 900px) {
+
+   
     h1{
         font-size: 2.75rem;
     }
@@ -80,13 +154,16 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-left: 2rem;
-        margin-right: 2rem;
+
         text-align: center;
+      
         
 
         .introduction {
-            width: 100%;
+            width: 100%; 
+            border: yellow 1rem solid;
+            padding-left: 2rem;
+            padding-right: 2rem;
         }
 
         
@@ -96,15 +173,27 @@
         
         .knownSkills{
             width: 100%;
+            color: yellow;
+            background-color: black;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 1.5rem;
 
         }
 
         .learningSkills{
             width: 100%;
+            background-color: yellow;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 2rem;
         }
 
         .aboutMe {
             width: 100%;
+            border: black 1rem solid;
+            padding-left: 2rem;
+            padding-right: 2rem;
         }
 
 

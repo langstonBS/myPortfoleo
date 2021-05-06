@@ -17,8 +17,7 @@ const Home = () => {
             <section className="knownSkills">
                 <h2> Known Skills</h2>
                 <ul className="listClass">
-                    <li>
-                    </li>
+
                     <li>
                         node.js
                     </li>
@@ -26,7 +25,7 @@ const Home = () => {
                         MongoDB
                     </li>
                     <li>
-                        SQL
+                        symantic HTML
                     </li>
                     <li>
                         React

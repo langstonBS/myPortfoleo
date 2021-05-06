@@ -6,7 +6,7 @@ import Style from './Navagation.scss'
 
 const NavStyle = {
     fontWeight: "bold",
-    color: "red",
+    color: "yellow",
     textAlign: "center"
 }
 
