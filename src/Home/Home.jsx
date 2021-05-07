@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.scss'
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 const Home = () => {
