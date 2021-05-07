@@ -1,0 +1,60 @@
+.outFoot {   
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .footContaner {
+    max-width: 50%;
+    overflow: hidden;
+    background-color: black;
+    color: yellow;
+  }
+  
+  a {
+    text-decoration: none;
+    color: yellow;
+  }
+
+
+  .footerNameText{
+    font-size: 3rem;
+    text-align: center;
+    
+ 
+  }
+
+  .footerLinks{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 800px) and (max-width: 1500px) {
+
+    .footerNameText{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .footerLinks{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .footerNameText{
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .footerLinks{
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+  }
