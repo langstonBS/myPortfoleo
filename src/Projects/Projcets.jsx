@@ -1,29 +1,37 @@
 import React from 'react'
 import './Projects.css'
+import Project from '../Project/Project'
+
+
+const projetData = [
+    {
+        title: "project one",
+        discription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea fuga maxime deleniti dicta itaque veniam doloribus et facilis dignissimos, provident ab aliquid debitis fugit doloremque culpa perferendis quod nesciunt.',
+        image: 'http://placekitten.com/g/200/300',
+        usedTec: ["usb", "otherShit", "node"],
+        gitHubUrl: "https://github.com/langstonBS",
+        isLive: true,
+        liveURL: "https://github.com/langstonBS"
+    },
+    {
+        title: "project one",
+        discription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea fuga maxime deleniti dicta itaque veniam doloribus et facilis dignissimos, provident ab aliquid debitis fugit doloremque culpa perferendis quod nesciunt.',
+        image: 'http://placekitten.com/g/200/300',
+        usedTec: ["usb", "otherShit", "node"],
+        gitHubUrl: "https://github.com/langstonBS",
+        isLive: true,
+        liveURL: "https://github.com/langstonBS"
+    }
+
+]
 
 const Projcets = () => {
     return (
-        <>
-            <div class="box">
-                <div class="innerBox">
-                    <article>
-                        <h2>title</h2>
-
-                    </article>
-                </div>
-                <div class="innerBox">Two
-                <article>
-                        <h2>title</h2>
-                    </article>
-                </div>
-                <div class="innerBox">Three
-                <article>
-                        <h2>title</h2>
-                    </article>
-                </div>
-            </div>
-
-        </>
+        <div className="box">
+            {
+                projetData.map(item => <Project {...item} />)
+            }
+        </div>
     )
 }
 
