@@ -1,8 +1,31 @@
 .innerBox {
  
     border: black solid 2px;
-    background-color: palevioletred;
-    margin: 10px;
-    max-width: 400px;
+    
+    max-width: 25rem;
+    margin: 1rem;
+    
+
+    
+    h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    li{
+        font-size: 1.75rem;
+        list-style: none;
+        margin-left: 4rem;
+    }
+    ul{
+        padding: 0;
+    }
+
+    
 
 }
+
