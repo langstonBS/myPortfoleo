@@ -9,7 +9,7 @@ const Home = () => {
 
             <section className="introduction">
                 <h1>welcome to</h1>
-                <p>Software Engineer who thrives in collaborative and dynamic teams who values great communication, makes sure everyone's voice is heard, and brings great empathy to any environment. Loves slaying code in React and able to bring remote cohesiveness to any dev environment. </p>
+                <p>Software Engineer who thrives in collaborative and dynamic teams and values great communication, makes sure everyone's voice is heard, and brings great empathy to any environment.</p>
             </section>
 
 
