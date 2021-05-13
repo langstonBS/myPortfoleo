@@ -7,7 +7,7 @@
     .outerGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr .5fr 1fr;
+    grid-template-rows: .5fr .5fr .5fr 1fr;
     justify-content: center;
     
 
@@ -63,19 +63,12 @@
 
 }
 
-
-
-
-
-
-
-
 @media  (min-width: 900px) and (max-width: 1500px) {
 
 .outerGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr .5fr 1fr;
+    grid-template-rows: .5fr .5fr .5fr 1fr;
     justify-content: center;
     max-width: 1500px;
 
