@@ -32,21 +32,21 @@ const projetData = [
         liveURL: "https://florafile.netlify.app/"
     },
     {
-        title: "Project Spender",
-        discription: 'Florafile || Backend codebase. Holds all fetch calls to APIs, relevant routes, and a TopSearch model that seeds a database (Heroku deployed). The database logic is google-akin in that it returns to the user (on the frontend) suggestions based on popular searches/clicks.',
-        image: 'http://placekitten.com/g/200/300',
-        usedTec: ["Express", "Node.js"],
-        gitHubUrl: "https://github.com/GOATDreamTeam/backend",
-        isLive: true,
-        liveURL: "https://florafile.netlify.app/"
-    },
-    {
         title: "Burning Suns",
         discription: 'Front End Material-UI react application that shows the user a star map based on location.',
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Material UI", "React.js"],
         gitHubUrl: "https://github.com/langstonBS/burning-suns-fr",
         isLive: true,
+        liveURL: "https://burningsuns.herokuapp.com/"
+    },
+    {
+        title: "Rapid Health",
+        discription: 'Front end development focusing heavily on accessibility design.  The Project uses the most up to date react practices Material-UI and the latest testing libraries to ensure that our website is fully accessible for everyone.   We are on schedule to have a viable product by July.',
+        image: 'http://placekitten.com/g/200/300',
+        usedTec: ["Material UI", "React.js", "Graph QL", "Dreamwever"],
+        gitHubUrl: "https://github.com/langstonBS/burning-suns-fr",
+        isLive: false,
         liveURL: "https://burningsuns.herokuapp.com/"
     }
 
