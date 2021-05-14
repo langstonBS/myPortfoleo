@@ -17,7 +17,7 @@ const Navagation = () => {
         <nav className={Style.Navagation}>
             <ul className="navContainer">
                 <li className="nameElement" >
-                    Langston's Portfolieo
+                    Langston's Portfolio
                     </li>
                 <li>
                     <NavLink
