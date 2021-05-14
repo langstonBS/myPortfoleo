@@ -25,7 +25,7 @@ const Home = () => {
                         MongoDB
                     </li>
                     <li>
-                        symantic HTML
+                        Semantic HTML
                     </li>
                     <li>
                         React
