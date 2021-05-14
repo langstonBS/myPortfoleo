@@ -19,7 +19,7 @@ const Home = () => {
                 <ul className="listClass">
 
                     <li>
-                        node.js
+                        Node.js
                     </li>
                     <li>
                         MongoDB
@@ -34,7 +34,7 @@ const Home = () => {
                         Styling (css, css3 and scss sass)
                     </li>
                     <li>
-                        Postgress
+                        PostgreSQL
                     </li>
                 </ul>
             </section>
