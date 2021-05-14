@@ -31,7 +31,7 @@ const Home = () => {
                         React
                     </li>
                     <li>
-                        css
+                        Styling (css, css3 and scss sass)
                     </li>
                     <li>
                         Postgress
