@@ -7,7 +7,7 @@ const projetData = [
     {
         title: "Memory Organizer",
         discription: 'Memories is a back-end project designed for users to create a personal journal, including photos.  A week-long project completed remotely with four developers. This project allowed a user to search journal entries by text or keywords provided by Google Vision API.  I created the routes and a service that sends the photo to Google Vision API and reseves the data back.',
-        isImage: false,
+        isImage: true,
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Google Cloud Vision", "Node.js", "Express", "MongoDB"],
         gitHubUrl: "https://github.com/MemoryOrganizer/memory-organizer-be",

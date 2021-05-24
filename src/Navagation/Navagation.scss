@@ -1,48 +1,99 @@
 
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
-    box-shadow: 0px 0px 10px black;
-   
-          li {
-            float: left;
-            font-size: 2.5rem;
 
-          }
 
-          .navContainer{
-            List-style-type: none;
-          }
+  @media only screen and (min-width: 2000px) {
+    nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      width: 100%;
+      box-shadow: 0px 0px 10px black;
+     
+            li {
+    
+              font-size: 2.5rem;
+              float: none;
+ 
+  
+            }
+  
+            .navContainer{
+              List-style-type: none;
+            }
+            
+          .navElements {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            float: none;
+            clear:left;
+            }
           
-        .navElements {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            float: left;
-          }
-        
-          .nameElement {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-          }
-          
-          /* Change the link color to #111 (black) on hover */
-          li a:hover {
-            background-color: #111;
-          }
+            .nameElement {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+              background-color: #111;
+            }
+    }
+  
+
   }
 
-  @media only screen and (min-width: 800px) and (max-width: 1500px)  {
 
+  @media only screen and (min-width: 800px) and (max-width: 2000px)  {
+    nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      width: 100%;
+      box-shadow: 0px 0px 10px black;
+     
+            li {
+              float: left;
+              font-size: 2.5rem;
+  
+            }
+  
+            .navContainer{
+              List-style-type: none;
+            }
+            
+          .navElements {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              float: left;
+            }
+          
+            .nameElement {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+              background-color: #111;
+            }
+    }
+  
     nav li{
       font-size: 2rem;
     }
