@@ -51,7 +51,7 @@ const Projcets = () => {
     return (
         <div className="box">
             {
-                projetData.map(item => <Project {...item} />)
+                projetData.map(item => <Project {...item} key={item.discription} />)
             }
         </div>
     )
