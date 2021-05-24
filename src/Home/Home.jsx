@@ -15,7 +15,7 @@ const Home = () => {
 
 
             <section className="knownSkills">
-                <h2> Known Skills</h2>
+                <h2>Known Skills</h2>
                 <ul className="listClass">
 
                     <li>
@@ -58,8 +58,8 @@ const Home = () => {
             </section>
             <section className="aboutMe">
                 <h2>Who Am I</h2>
-                <p>I have a coding philosophy that values communication and community to solve complex problems. Having just finished being a teaching assistant for a coding school, I have learned how to cultivate an environment that empowers all voices in the (Zoom) room, I also saw firsthand how success can only be attained by open communication.</p>
-                <p>I'm currently working on a project to better reach the disabled community. We are using semantic HTML, and are following a design that is based on interviews from the disabled community. We are using the most up-to-date react practices and the latest testing libraries to ensure that our website is fully accessible for everyone. Using these skills along with new ones I am sure to learn through my life, I want to bring the same focus on community by using open communication and accessibility driven development to future projects.</p>
+                <p>I have a coding philosophy that values communication and community to solve complex problems. Having just finished being a teaching assistant for a coding school, I have learned how to cultivate an environment that empowers all voices in the (Zoom) room. I also saw firsthand how success can only be attained through open communication.</p>
+                <p>I’m currently working on a project to better reach the disabled community, who we are interviewing to guide our design using semantic HTML. We are using the most up-to-date React practices and the latest testing libraries to ensure that our website is fully accessible for everyone. Using these skills, along with new ones I am constantly obtaining, I am sure to learn through my life. I want to bring the same focus on community by using open communication and accessibility driven development to future projects.</p>
             </section>
 
         </div>

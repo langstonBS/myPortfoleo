@@ -27,13 +27,13 @@ const Navagation = () => {
                         Home
                         </NavLink>
                 </li>
-                {/* <li>
+                <li>
                     <NavLink className="navElements"
                         exact to="/Projects"
                         activeStyle={NavStyle}>
                         Projects
                     </NavLink>
-                </li> */}
+                </li>
             </ul>
         </nav>
     );

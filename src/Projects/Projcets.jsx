@@ -6,7 +6,8 @@ import Project from '../Project/Project'
 const projetData = [
     {
         title: "Memory Organizer",
-        discription: 'Backend (Node.js, Express, MongoDB) for a full-stack app that provides a repository for users to upload photos and notes about their memories. All photos utilize the Google Cloud Vision API to auto-tag the images for increased searchability.',
+        discription: 'Memories is a back-end project designed for users to create a personal journal, including photos.  A week-long project completed remotely with four developers. This project allowed a user to search journal entries by text or keywords provided by Google Vision API.  I created the routes and a service that sends the photo to Google Vision API and reseves the data back.',
+        isImage: true,
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Google Cloud Vision", "Node.js", "Express", "MongoDB"],
         gitHubUrl: "https://github.com/MemoryOrganizer/memory-organizer-be",
@@ -16,6 +17,7 @@ const projetData = [
     {
         title: "Project Spender",
         discription: 'Backend project to help people track their spending habits',
+        isImage: true,
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["SQL", "Express", "Node.js"],
         gitHubUrl: "https://github.com/Project-Spendr/Spendr-be-sql",
@@ -23,17 +25,9 @@ const projetData = [
         liveURL: ""
     },
     {
-        title: "Project Spender",
-        discription: 'Florafile || Backend codebase. Holds all fetch calls to APIs, relevant routes, and a TopSearch model that seeds a database (Heroku deployed). The database logic is google-akin in that it returns to the user (on the frontend) suggestions based on popular searches/clicks.',
-        image: 'http://placekitten.com/g/200/300',
-        usedTec: ["Express", "Node.js"],
-        gitHubUrl: "https://github.com/GOATDreamTeam/backend",
-        isLive: true,
-        liveURL: "https://florafile.netlify.app/"
-    },
-    {
         title: "Burning Suns",
-        discription: 'Front End Material-UI react application that shows the user a star map based on location.',
+        discription: 'Night Sky finds constellations based on location and allows the user to save personal notes tied to them.  I collaborated with a team of four software developers remotely to build, design, and create the application.  I design the front-end using Material-UI.',
+        isImage: true,
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Material UI", "React.js"],
         gitHubUrl: "https://github.com/langstonBS/burning-suns-fr",
@@ -43,6 +37,7 @@ const projetData = [
     {
         title: "Rapid Health",
         discription: 'Front end development focusing heavily on accessibility design.  The Project uses the most up to date react practices Material-UI and the latest testing libraries to ensure that our website is fully accessible for everyone.   We are on schedule to have a viable product by July.',
+        isImage: true,
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Material UI", "React.js", "Graph QL", "Dreamwever"],
         gitHubUrl: "https://github.com/langstonBS/burning-suns-fr",
