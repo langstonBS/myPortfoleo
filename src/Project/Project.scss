@@ -1,10 +1,12 @@
+
+
 .innerBox {
  
-    border: black solid 2px;
-    
+
     max-width: 50rem;
     margin: 1rem;
     padding: 2rem;
+    border-bottom: black solid 1rem;
 
 
     figure {
@@ -31,9 +33,14 @@
     }
 
     a{
+        text-align: center;
         color: black;
         font-size: 2rem;
     }
+    h5{
+        text-align: center;
+    }
+
 
     
 
