@@ -9,21 +9,21 @@
     
         h1{
             text-align: center;
-            font-size: 3rem;
+            font-size: 4rem;
         }
     
         p{
-            font-size: 1.75rem;
+            font-size: 2.75rem;
         }
         li{
-            font-size: 2rem;
+            font-size: 3rem;
             list-style: none;
         }
         ul{
             padding: 0;
         }
         h2{
-            font-size: 2.75rem;
+            font-size: 3.75rem;
             text-align: center;
         }
         .headingText{
@@ -50,8 +50,8 @@
             .aboutMe {
                 grid-row: 3;
                 grid-column: 2 / span 2;
-                grid-column-start:  4;
-                grid-column-end: 6;
+                grid-column-start:  3;
+                grid-column-end: 7;
             }
         }
 
@@ -202,7 +202,7 @@
 
         .introduction {
             width: 100%; 
-            border: yellow 1rem solid;
+            background-color: rgba(128, 128, 128, 0.171);;
             padding-left: 2rem;
             padding-right: 2rem;
         }
@@ -214,8 +214,8 @@
         
         .knownSkills{
             width: 100%;
-            color: yellow;
-            background-color: black;
+            color: black;
+            background-color:white;
             padding-left: 2rem;
             padding-right: 2rem;
             padding-bottom: 1.5rem;
@@ -224,7 +224,7 @@
 
         .learningSkills{
             width: 100%;
-            background-color: yellow;
+            background-color: rgba(128, 128, 128, 0.171);
             padding-left: 2rem;
             padding-right: 2rem;
             padding-bottom: 2rem;
@@ -232,7 +232,7 @@
 
         .aboutMe {
             width: 100%;
-            border: black 1rem solid;
+            
             padding-left: 2rem;
             padding-right: 2rem;
         }

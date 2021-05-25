@@ -4,7 +4,7 @@ import './Project.scss'
 function Project(props) {
     return (
 
-        <article class="innerBox">
+        <article className="innerBox">
             <h2>{props.title}</h2>
             {props.isImage ?
                 <figure>
@@ -12,12 +12,14 @@ function Project(props) {
                     <figcaption>{props.title}</figcaption>
                 </figure> : ""}
             <p>{props.discription}</p>
-            <ul>{props.usedTec.map(item => <li>{item}</li>)}</ul>
-            <a href={props.gitHubUrl} target="_blank" rel="noreferrer">github</a>
-            {props.isLive ? <a href={props.liveURL} target="_blank" rel="noreferrer">Live</a> :
-                ""}
+            <ul>{props.usedTec.map(item => <li key={Math.random().toString(36).substr(2, 9)} > {item}</li>)}</ul>
+            <h5><a className="github" href={props.gitHubUrl} target="_blank" rel="noreferrer"> github</a>
+                {props.isLive ? <a href={props.liveURL} target="_blank" rel="noreferrer">  Live</a> :
+                    ""
+                }</h5>
 
-        </article>
+        </article >
+
 
     )
 }
