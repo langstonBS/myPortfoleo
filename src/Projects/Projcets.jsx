@@ -40,7 +40,7 @@ const projetData = [
         isImage: false,
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Material UI", "React.js", "Graph QL", "Dreamwever"],
-        gitHubUrl: "https://github.com/langstonBS/burning-suns-fr",
+        gitHubUrl: "https://github.com/langstonBS",
         isLive: false,
         liveURL: "https://burningsuns.herokuapp.com/"
     }
