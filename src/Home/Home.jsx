@@ -9,7 +9,7 @@ const Home = () => {
 
             <section className="introduction">
                 <h1>Welcome</h1>
-                <p>I am a Software Engineer who thrives in collaborative and dynamic teams and values great communication, makes sure everyone's voice is heard, and brings great empathy to any environment.</p>
+                <p>I am a Software Developer who thrives in a collaborative environment working with a dynamic team.  I value open communication which supports and empowers everyone on the team to make their fullest contribution.  I am empathetic and supportive of my coworkers.</p>
             </section>
 
 
@@ -58,8 +58,8 @@ const Home = () => {
             </section>
             <section className="aboutMe">
                 <h2>Who Am I</h2>
-                <p>I have a coding philosophy that values communication and community to solve complex problems. Having just finished being a teaching assistant for a coding school, I have learned how to cultivate an environment that empowers all voices in the (Zoom) room. I also saw firsthand how success can only be attained through open communication.</p>
-                <p>I’m currently working on a project to better reach the disabled community, who we are interviewing to guide our design using semantic HTML. We are using the most up-to-date React practices and the latest testing libraries to ensure that our website is fully accessible for everyone. Using these skills, along with new ones I am constantly obtaining, I am sure to learn through my life. I want to bring the same focus on community by using open communication and accessibility driven development to future projects.</p>
+                <p>I have a philosophy that values open communication and community collaboration to solves complex coding problems.  Recently I finished a teaching assisting at a dynamic Professional Software Developer Program.  I learned how to cultivate a successful learning environment that empowers all voices in the (Zoom) room.  I observed firsthand how sustained and progressive success can only be obtained through open community and strong teamwork.</p>
+                <p>I am currently working on a project to develop a web portal to host instructional videos for recently disabled individuals.  Interviews with members of the disabled community are being used to guide design choices and proper development techniques to ensure accessibility. The team is using the most up to date React practices and the latest testing libraries to ensure usability and accessibility.  </p>
             </section>
 
         </div>
