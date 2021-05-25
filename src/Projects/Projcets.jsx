@@ -25,7 +25,7 @@ const projetData = [
         liveURL: ""
     },
     {
-        title: "Burning Suns",
+        title: "Night Sky",
         discription: 'Night Sky finds constellations based on location and allows the user to save personal notes tied to them.  I collaborated with a team of four software developers remotely to build, design, and create the application.  I design the front-end using Material-UI.',
         isImage: false,
         image: 'http://placekitten.com/g/200/300',
@@ -41,6 +41,16 @@ const projetData = [
         image: 'http://placekitten.com/g/200/300',
         usedTec: ["Material UI", "React.js", "Graph QL", "Dreamwever"],
         gitHubUrl: "https://github.com/langstonBS",
+        isLive: false,
+        liveURL: "https://burningsuns.herokuapp.com/"
+    },
+    {
+        title: "Florifile",
+        discription: 'Florifile is a website that informs the user about plants. I developed the backend which holds all fetch calls to the API and seeds the database with the relevant return data from the API. I created a top search method that returns to the user suggestions based on popular searches/clicks',
+        isImage: false,
+        image: 'http://placekitten.com/g/200/300',
+        usedTec: ["React.js", "Node.js", "MongoDB"],
+        gitHubUrl: "https://github.com/GOATDreamTeam",
         isLive: false,
         liveURL: "https://burningsuns.herokuapp.com/"
     }
