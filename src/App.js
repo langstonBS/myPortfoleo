@@ -15,16 +15,9 @@ function App() {
   return (
 
     <Router>
-      <Navagation />
-      <Switch>
-        <Route path="/projects">
-          <Projcets />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-      <Footer />
+
+      <Home />
+
     </Router>
 
   );

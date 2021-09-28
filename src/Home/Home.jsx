@@ -1,66 +1,52 @@
 import React from 'react'
-import './Home.scss'
+import './Home.css'
 
 
 
 const Home = () => {
     return (
-        <div className="outerGrid">
-
-            <section className="introduction">
-                <h1>Welcome</h1>
-                <p>I am a Software Developer who thrives in a collaborative environment working with a dynamic team.  I value open communication which supports and empowers everyone on the team to make their fullest contribution.  I am empathetic and supportive of my coworkers.</p>
-            </section>
-
-
-
-            <section className="knownSkills">
-                <h2>Known Skills</h2>
-                <ul className="listClass">
-
-                    <li>
-                        Node.js
-                    </li>
-                    <li>
-                        MongoDB
-                    </li>
-                    <li>
-                        Semantic HTML
-                    </li>
-                    <li>
-                        React
-                    </li>
-                    <li>
-                        Styling (css, css3 and scss sass)
-                    </li>
-                    <li>
-                        PostgreSQL
-                    </li>
-                </ul>
-            </section>
-
-            <section className="learningSkills">
-                <h2> Learning</h2>
-                <ul>
-                    <li>
-                        Rust
-                    </li>
-                    <li>
-                        React Native
-                    </li>
-                    <li>
-                        Styling (css, css3 and scss sass)
-                    </li>
-                    <li>
-                        Graph QL
-                    </li>
-                </ul>
-            </section>
-            <section className="aboutMe">
-                <h2>Who Am I</h2>
-                <p>I have a philosophy that values open communication and community collaboration to solves complex coding problems.  Recently I finished a teaching assisting at a dynamic Professional Software Developer Program.  I learned how to cultivate a successful learning environment that empowers all voices in the (Zoom) room.  I observed firsthand how sustained and progressive success can only be obtained through open community and strong teamwork.</p>
-                <p>I am currently working on a project to develop a web portal to host instructional videos for recently disabled individuals.  Interviews with members of the disabled community are being used to guide design choices and proper development techniques to ensure accessibility. The team is using the most up to date React practices and the latest testing libraries to ensure usability and accessibility.  </p>
-            </section>
+        <div className="container">
+            <div className="section-1">(section-1)</div>
+            <div className="section-2">(section-2)</div>
+            <div className="section-3">(section-3)</div>
+            <div className="section-4">(section-4)</div>
+            <div className="section-5">(section-5)</div>
+            <div className="section-6">
+                (section-6)
+            </div>
+            <div className="section-7"> (section-7)</div>
+            <div className="section-8">
+                <p>name (section-8)</p>
+            </div>
+            <div className="section-9">(section-9)</div>
+            <div className="section-10"><p>projects(section-10)</p></div>
+            <div className="section-11">(section-11)</div>
+            <div className="section-12">(section-12)</div>
+            <div className="section-13">(section-13)</div>
+            <div className="section-14">(section-14)</div>
+            <div className="section-15">(section-15)</div>
+            <div className="section-16"><p>philo (section-16)</p></div>
+            <div className="section-17">(section-17)</div>
+            <div className="section-18">(section-18)</div>
+            <div className="section-19">
+                <p>resume (section-19)</p>
+            </div>
+            <div className="section-20">(section-20)</div>
+            <div className="section-21">(section-21)</div>
+            <div className="section-22">(section-22)</div>
+            <div className="section-23">
+                <p>linked in(section-23)</p>
+            </div>
+            <div className="section-24">(section-24)</div>
+            <div className="section-25">(section-25)</div>
+            <div className="section-26">(section-26)</div>
+            <div className="section-27">(section-27)</div>
+            <div className="section-28"><p>githunb (section-28)</p></div>
+            <div className="section-29">(section-29)</div>
+            <div className="section-30"><p>learn (section-30)</p></div>
+            <div className="section-31">(section-31)</div>
+            <div className="section-32">(section-32)</div>
+            <div className="section-33">(section-33)</div>
 
         </div>
     )
