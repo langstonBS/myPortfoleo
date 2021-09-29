@@ -22,8 +22,8 @@ function Project(props) {
             <div className="project_section_4"></div>
             <div className="project_section_5"></div>
             <div className="project_section_6"></div>
-
         </article>
+
 
 
     )
