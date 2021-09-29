@@ -10,9 +10,6 @@ const NavStyle = {
     textAlign: "center"
 }
 
-const lastLine = {
-    backgroundColor: "border-right: .3rem solid black"
-}
 
 
 
