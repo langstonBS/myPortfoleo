@@ -248,10 +248,13 @@ class Home extends Component {
                 <Link to="/projects" className="section-10"> <p>Projects </p></Link>
                 <Link to="/writing" className="section-16" onMouseOver={this.handleMouseOver} Style={{ backgroundColor: this.state.bgColor }}><p>Philosophy</p></Link>
 
-                <div className="section-19">
+                <a href="https://www.linkedin.com/in/langston-beckwith-stanley/"
+                    target="_Blank"
+                    className="section-19"
+                    rel="noreferrer"
+                >
                     <p>resume</p>
-
-                </div>
+                </a>
 
                 <a href="https://www.linkedin.com/in/langston-beckwith-stanley/"
                     target="_Blank"
