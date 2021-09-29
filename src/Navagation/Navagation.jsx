@@ -6,8 +6,12 @@ import Style from './Navagation.scss'
 
 const NavStyle = {
     fontWeight: "bold",
-    color: "yellow",
+    backgroundColor: "red",
     textAlign: "center"
+}
+
+const lastLine = {
+    backgroundColor: "border-right: .3rem solid black"
 }
 
 
@@ -18,20 +22,35 @@ const Navagation = () => {
             <ul className="navContainer">
                 <li className="nameElement" >
                     Langston's Portfolio
-                    </li>
+                </li>
                 <li>
                     <NavLink
                         className="navElements"
                         exact to="/"
                         activeStyle={NavStyle}>
                         Home
-                        </NavLink>
+                    </NavLink>
                 </li>
                 <li>
                     <NavLink className="navElements"
                         exact to="/Projects"
-                        activeStyle={NavStyle}>
+                        activeStyle={NavStyle}
+                    >
                         Projects
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="navElements"
+                        exact to="/writing"
+                        activeStyle={NavStyle}>
+                        Philosophy
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="navElements"
+                        exact to="/learning"
+                        activeStyle={NavStyle}>
+                        Learning
                     </NavLink>
                 </li>
             </ul>

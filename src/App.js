@@ -5,26 +5,29 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Navagation from './Navagation/Navagation';
 import Home from './Home/Home';
 import Projcets from './Projects/Projcets';
-import Footer from './Footers/Footer';
+import Writing from './Writing/Writing';
+import Learning from './Learning/Learning';
 
 
 function App() {
   return (
-
     <Router>
-      <Navagation />
       <Switch>
         <Route path="/projects">
           <Projcets />
+        </Route>
+        <Route path="/writing">
+          <Writing />
+        </Route>
+        <Route path="/learning">
+          <Learning />
         </Route>
         <Route path="/">
           <Home />
         </Route>
       </Switch>
-      <Footer />
     </Router>
 
   );

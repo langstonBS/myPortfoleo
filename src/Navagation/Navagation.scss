@@ -1,101 +1,122 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
+p, a {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: black;
+}
 
-  @media only screen and (min-width: 2000px) {
-    nav {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: black;
-      width: 100%;
-      box-shadow: 0px 0px 10px black;
+  // @media only screen and (min-width: 2200px) {
+  //   nav {
+  //     list-style-type: none;
+  //     margin: 0;
+  //     padding: 0;
+  //     overflow: hidden;
+  //     background-color: black;
+  //     width: 100%;
+  //     box-shadow: 0px 0px 10px black;
      
-            li {
+  //           li {
     
-              font-size: 2.5rem;
-              float: none;
+  //             font-size: 2.5rem;
+  //             float: none;
  
   
-            }
+  //           }
   
-            .navContainer{
-              List-style-type: none;
-            }
+  //           .navContainer{
+  //             List-style-type: none;
+  //           }
             
-          .navElements {
-              display: block;
-              color: white;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-            float: none;
-            clear:left;
-            }
+  //         .navElements {
+  //             display: block;
+  //             color: white;
+  //             text-align: center;
+  //             padding: 14px 16px;
+  //             text-decoration: none;
+  //           float: none;
+  //           clear:left;
+  //           }
           
-            .nameElement {
-              display: block;
-              color: white;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-            }
+  //           .nameElement {
+  //             display: block;
+  //             color: white;
+  //             text-align: center;
+  //             padding: 14px 16px;
+  //             text-decoration: none;
+  //           }
             
-            /* Change the link color to #111 (black) on hover */
-            li a:hover {
-              background-color: #111;
-            }
-    }
+  //           /* Change the link color to #111 (black) on hover */
+  //           li a:hover {
+  //             background-color: #111;
+  //           }
+  //   }
   
 
-  }
+  // }
 
 
-  @media only screen and (min-width: 800px) and (max-width: 2000px)  {
+  @media only screen and (min-width: 800px) {
     nav {
       list-style-type: none;
-      margin: 0;
-      padding: 0;
+      margin: 0px;
+      padding: 0px;
       overflow: hidden;
-      background-color: black;
+      background-color:white;
       width: 100%;
-      box-shadow: 0px 0px 10px black;
-     
+      border-bottom: .5rem solid black;
+      border-top: .5rem solid black;
+      ul{
+        padding: 0px;
+        margin: 0px;
+
+      }
             li {
               float: left;
-              font-size: 2.5rem;
-  
+              font-size: 2rem;
+              margin: 0px;
             }
   
             .navContainer{
               List-style-type: none;
+              margin: 0px;
             }
             
           .navElements {
               display: block;
-              color: white;
+              color: black;
               text-align: center;
               padding: 14px 16px;
               text-decoration: none;
               float: left;
+              margin: 0px;
+              
             }
           
             .nameElement {
+              font-family: 'Roboto Condensed', sans-serif;
               display: block;
-              color: white;
+              color: Black;
               text-align: center;
               padding: 14px 16px;
               text-decoration: none;
+              margin: 0px;
+
             }
             
             /* Change the link color to #111 (black) on hover */
             li a:hover {
-              background-color: #111;
+              background-color: red;
             }
     }
   
     nav li{
       font-size: 2rem;
+      border-right: .5rem solid black;
+      margin: 0px;
+
+
     }
 
   }
@@ -116,30 +137,28 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        border-top: black 1rem solid;
+        border-bottom: black 1rem solid;
+        
 
           ul{
             margin: 0rem;
             padding: 0rem;
             border-top: black 1rem solid;
-            border-bottom: black 1rem solid;
-            background-image: linear-gradient(45deg, yellow 2.38%, 
-            black 2.38%, 
-            black 50%, 
-            yellow 50%,
-            yellow 52.38%, 
-            black 52.38%,
-            black 100%);
-            background-size: 21.00px 21.00px;
+          
           }
         
 
             li {
+              margin: 0rem;
+              padding: 0rem;
             width: 100%;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
             text-align: center;
+            color:black;
          }         
           .NavElements {
               display: block;
@@ -147,7 +166,7 @@
               text-align: center;
               text-decoration: none;
               float: left;
-              background-color: black;
+              background-color: white;
             }
           
             .NameElement {
@@ -155,7 +174,7 @@
               color: white;
               text-align: center;
               text-decoration: none;  
-              background-color: black;   
+           
             }
       }  
   }
