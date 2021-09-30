@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-p, a {
+.learning_paragraph{
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   color: black;
+  margin: .7rem;
+}
+
+.learning_title_text{
+    font-size: larger;
 }
 
 .containerWriting {
@@ -97,11 +102,32 @@ grid-template-rows: 2fr 1fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr 
         border: black .3rem solid;   
     }
 
+    .learning_section_13{
+        grid-column: 2;
+        grid-row: 10 / span 18;
+        background-color: red;  
+        border: black .3rem solid;   
+    }
+
+    .learning_section_14{
+        grid-column: 2;
+        grid-row: 6/ 10;
+        background-color: blue;  
+        border: black .3rem solid;   
+    }
+
+
     .learning_article{
-        grid-column: 2 /8;
-        grid-row: 6/ span 12;
-        border: black .3rem solid;
-        
+        grid-column: 3 /8;
+        grid-row: 6/ 12;
+        border: black .3rem solid; 
+    }
+
+    .learning_section_15{
+        grid-column: 3/ 8;
+        grid-row: 12/  span 16;
+        background-color: blue;  
+        border: black .3rem solid;   
     }
 
     .learning_title{

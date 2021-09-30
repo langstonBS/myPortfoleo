@@ -9,6 +9,8 @@ import Home from './Home/Home';
 import Projcets from './Projects/Projcets';
 import Writing from './Writing/Writing';
 import Learning from './Learning/Learning';
+import TechnicalSkill from './TechnicalSkill/TechnicalSkill';
+import Resume from './Resume/Resume';
 
 
 function App() {
@@ -23,6 +25,12 @@ function App() {
         </Route>
         <Route path="/learning">
           <Learning />
+        </Route>
+        <Route path="/technical">
+          <TechnicalSkill />
+        </Route>
+        <Route path="/resume">
+          <Resume />
         </Route>
         <Route path="/">
           <Home />

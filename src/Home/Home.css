@@ -137,8 +137,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   .section-17{
     grid-column: 4/6;
     grid-row:4/7;
-    border: black .3rem solid;
-    background-color: yellow;        
+    border: black .3rem solid;         
   } 
 
   .section-18{
@@ -569,8 +568,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   .section-17{
     grid-column: 1/2;
     grid-row:4/6;
-    border: black .3rem solid;
-    background-color: red;        
+    border: black .3rem solid;       
   } 
 
   .section-18{
