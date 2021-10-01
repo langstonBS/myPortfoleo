@@ -1,0 +1,182 @@
+
+    .resume_section_type{
+        font-size: 1.1rem;
+        margin: .4rem .4rem .4rem 0rem;
+    }
+
+    .resume_label_type{
+        font-size:1.8rem;
+    }
+
+    .resume_title_type{
+        font-size:1.2rem;
+        margin: 0rem;
+    }
+
+    .resume_paragraph_type{
+        margin: 0rem;
+        font-size: 1rem;   
+        text-align: left;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .resume_list_type{
+        list-style-type: circle;
+    }
+
+    .containerResume {
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        overflow: hidden;
+        
+     
+        grid-template-columns: 4fr 5fr 6fr 5fr 14fr 7fr;
+        grid-template-rows: 1fr 4fr 5fr  5fr 2fr 5fr 1fr 3fr 7fr 1fr;
+      }
+
+      .resume_section_1{
+        grid-column:1/3 ;
+        grid-row:1/3;
+        border-bottom: black .3rem solid; 
+        border-left: black .3rem solid; 
+        border-right: black .3rem solid; 
+        background-color: red;  
+        }
+
+        .resume_section_2{
+            grid-column: 4 /8;
+            grid-row:5;
+            border-bottom: black .3rem solid; 
+            border-left: black .3rem solid; 
+            border-right: black .3rem solid; 
+            background-color: blue;
+  
+            }
+
+
+            .resume_section_3{
+                grid-column: 3 /6;
+                grid-row:1;
+                border-bottom: black .3rem solid; 
+                border-left: black .3rem solid; 
+                border-right: black .3rem solid; 
+                background-color: yellow; 
+             
+                }
+
+    .resume_section_4{
+        grid-column: 6;
+        grid-row:1/3 ;
+        border-bottom: black .3rem solid; 
+        border-left: black .3rem solid; 
+        border-right: black .3rem solid; 
+        background-color: red;  
+            }
+
+            
+    .resume_section_5{
+        grid-column: 1/3;
+        grid-row:6/8;
+        border: black .3rem solid; 
+        background-color: red;  
+        }
+
+        .resume_section_6{
+            grid-column: 4;
+            grid-row:2/4;
+            border: black .3rem solid; 
+            background-color: red; 
+            display: none; 
+            }
+    .resume_section_7{
+        grid-column:3/ 6;
+        grid-row:2/5;
+        border: black .3rem solid; 
+        overflow-y: scroll;  
+        }
+    .resume_section_8{
+        grid-column: 6;
+        grid-row:3/5;
+        border: black .3rem solid; 
+        background-color: yellow;  
+        }
+
+    .resume_section_9{
+        grid-column: 3;
+        grid-row:5/8;
+        border: black .3rem solid; 
+        background-color: yellow;  
+        }
+    .resume_section_10{
+        grid-column: 1/3;
+        grid-row:3/6;
+        border: black .3rem solid; 
+        overflow-y: scroll; 
+        }
+
+        .resume_section_11{
+            grid-column: 4/6;
+            grid-row:6/ span 9;
+            border: black .3rem solid; 
+            overflow-y: scroll;  
+            }
+    .resume_section_12{
+        grid-column: 6;
+       
+        grid-row:6 / span 9 ;
+        border: black .3rem solid; 
+        background-color: yellow;  
+        }
+        .resume_section_13{
+            grid-column: 1/4;
+            grid-row:8;
+            border: black .3rem solid; 
+            background-color: yellow;  
+            }
+
+        .resume_section_14{
+            grid-column: 6;
+            grid-row:5;
+            border: black .3rem solid; 
+            background-color: yellow;  
+            }
+
+            .resume_section_15{
+                grid-column:1/3;
+                grid-row: 9;
+                border: black .3rem solid; 
+                overflow-y: scroll;   
+                }
+                .resume_section_16{
+                    grid-column:3;
+                    grid-row: 9;
+                    border: black .3rem solid; 
+                    background-color: yellow;  
+                    }
+                    table.blueTable {
+                        table-layout: auto;
+                        width: 100%;
+                        border-collapse: collapse;
+                      }
+                      table.blueTable td, table.blueTable th {
+                        text-align: left;
+                        padding: 3px 2px;
+                      }
+                      table.blueTable tbody td {
+                        font-size: 1rem; 
+                      }
+                      table.blueTable tbody th {
+                        font-size: 1.2rem; 
+                      }
+
+                      table.blueTable tfoot .links {
+                        text-align: right;
+                      }
+                      table.blueTable tfoot .links a{
+                        display: inline-block;
+                        background: #1C6EA4;
+                        color: #FFFFFF;
+                        padding: 2px 8px;
+                        border-radius: 5px;
+                      }

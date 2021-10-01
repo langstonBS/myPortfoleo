@@ -37,6 +37,10 @@ export default function Learning() {
                 <div className="learning_section_10"></div>
                 <div className="learning_section_11"></div>
                 <div className="learning_section_12"></div>
+                <div className="learning_section_13"></div>
+                <div className="learning_section_14"></div>
+                <div className="learning_section_15"></div>
+
             </div>
         </>
     )

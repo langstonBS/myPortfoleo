@@ -23,7 +23,6 @@ class Home extends Component {
         section14: 'blue',
         section15: 'yellow',
         section16: 'white',
-        section17: 'yellow',
         section18: 'blue',
         section20: 'white',
         section21: 'yellow',
@@ -146,12 +145,7 @@ class Home extends Component {
                     className="section-15"
                     value='section15'>
                 </button>
-                <button
-                    onClick={(e) => this.handleClick(e, this.state.section17)}
-                    style={{ backgroundColor: this.state.section17 }}
-                    className="section-17"
-                    value='section17'>
-                </button>
+
                 <button
                     onClick={(e) => this.handleClick(e, this.state.section18)}
                     style={{ backgroundColor: this.state.section18 }}
@@ -248,12 +242,12 @@ class Home extends Component {
                 <Link to="/projects" className="section-10"> <p>Projects </p></Link>
                 <Link to="/writing" className="section-16" onMouseOver={this.handleMouseOver} Style={{ backgroundColor: this.state.bgColor }}><p>Philosophy</p></Link>
 
-                <a href="https://www.linkedin.com/in/langston-beckwith-stanley/"
+                <a href="https://drive.google.com/file/d/1UlsdyaC8GP0OKb9kWJhCN-HjPmP2k2Yw/view?usp=sharing"
                     target="_Blank"
                     className="section-19"
                     rel="noreferrer"
                 >
-                    <p>resume</p>
+                    Resume
                 </a>
 
                 <a href="https://www.linkedin.com/in/langston-beckwith-stanley/"
@@ -269,8 +263,9 @@ class Home extends Component {
                     target="_Blank"
                     rel="noreferrer"
                 ><p>Github</p></a>
-
+                <Link to="/technical" className="section-17"><p>Technical Skills</p></Link>
                 <Link to="/learning" className="section-30"><p>Learning</p></Link>
+
 
             </div >
         )

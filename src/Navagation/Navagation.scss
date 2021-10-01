@@ -6,7 +6,9 @@ p, a {
   text-align: center;
   color: black;
 }
-
+ .navElements {
+  font-size: 1.5rem;
+ }
   // @media only screen and (min-width: 2200px) {
   //   nav {
   //     list-style-type: none;
@@ -74,7 +76,7 @@ p, a {
       }
             li {
               float: left;
-              font-size: 2rem;
+              font-size: 1rem;
               margin: 0px;
             }
   
@@ -112,7 +114,7 @@ p, a {
     }
   
     nav li{
-      font-size: 2rem;
+      font-size: 1.5rem;
       border-right: .5rem solid black;
       margin: 0px;
 

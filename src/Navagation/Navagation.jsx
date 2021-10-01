@@ -50,6 +50,14 @@ const Navagation = () => {
                         Learning
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink className="navElements"
+                        exact to="/technical"
+                        activeStyle={NavStyle}>
+                        Technical Skill
+                    </NavLink>
+                </li>
+
             </ul>
         </nav>
     );

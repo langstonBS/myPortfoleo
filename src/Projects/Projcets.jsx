@@ -61,7 +61,7 @@ const projectData = [
 const Projcets = () => {
     return (
         <>
-            < Navagation />
+            <Navagation />
             <div className="box">
                 {
                     projectData.map(item => <Project key={Math.random()}  {...item} />)
