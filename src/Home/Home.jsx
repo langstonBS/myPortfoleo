@@ -145,6 +145,7 @@ class Home extends Component {
                     className="section-15"
                     value='section15'>
                 </button>
+
                 <button
                     onClick={(e) => this.handleClick(e, this.state.section18)}
                     style={{ backgroundColor: this.state.section18 }}
@@ -241,7 +242,13 @@ class Home extends Component {
                 <Link to="/projects" className="section-10"> <p>Projects </p></Link>
                 <Link to="/writing" className="section-16" onMouseOver={this.handleMouseOver} Style={{ backgroundColor: this.state.bgColor }}><p>Philosophy</p></Link>
 
-                <Link to="resume" className="section-19">  <p>Resume</p> </Link>
+                <a href="https://drive.google.com/file/d/1UlsdyaC8GP0OKb9kWJhCN-HjPmP2k2Yw/view?usp=sharing"
+                    target="_Blank"
+                    className="section-19"
+                    rel="noreferrer"
+                >
+                    Resume
+                </a>
 
                 <a href="https://www.linkedin.com/in/langston-beckwith-stanley/"
                     target="_Blank"
