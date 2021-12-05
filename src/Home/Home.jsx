@@ -265,8 +265,6 @@ class Home extends Component {
                 ><p>Github</p></a>
                 <Link to="/technical" className="section-17"><p>Technical Skills</p></Link>
                 <Link to="/learning" className="section-30"><p>Learning</p></Link>
-
-
             </div >
         )
     }

@@ -121,6 +121,12 @@ grid-template-rows: 2fr 1fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr 
         grid-column: 3 /8;
         grid-row: 6/ 12;
         border: black .3rem solid; 
+        
+    }
+    .technical_paragraph_table{
+        text-align:center; 
+        margin-left:auto; 
+        margin-right:auto; 
     }
 
     .technical_section__15{
@@ -138,7 +144,8 @@ grid-template-rows: 2fr 1fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr 
     }
 
 .technical_paragraph{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: 80%;
 
 }
 
