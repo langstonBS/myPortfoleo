@@ -14,16 +14,16 @@ export default function TechnicalSkill() {
                 </section>
                 <article className="technical_article">
                     <ul className="technical_paragraph">
-                        <li><p className="technical_paragraph">Javascript </p></li>
-                        <li><p className="technical_paragraph">CSS </p></li>
-                        <li><p className="technical_paragraph">React </p></li>
-                        <li> <p className="technical_paragraph">HTML </p></li>
-                        <li> <p className="technical_paragraph">SQL </p></li>
-                        <li> <p className="technical_paragraph">Jest</p></li>
-                        <li><p className="technical_paragraph">React </p></li>
-                        <li> <p className="technical_paragraph">Express  </p></li>
-                        <li> <p className="technical_paragraph">Node.js </p></li>
-                        <li> <p className="technical_paragraph">Next.js</p></li>
+                        <li><p className="technical_paragraph">Javascript</p></li>
+                        <li><p className="technical_paragraph">CSS</p></li>
+                        <li><p className="technical_paragraph">React</p></li>
+                        <li><p className="technical_paragraph">HTML</p></li>
+                        <li><p className="technical_paragraph">SQL</p></li>
+                        <li><p className="technical_paragraph">Jest</p></li>
+                        <li><p className="technical_paragraph">React</p></li>
+                        <li><p className="technical_paragraph">Express </p></li>
+                        <li><p className="technical_paragraph">Node.js </p></li>
+                        <li><p className="technical_paragraph">Next.js</p></li>
                     </ul>
                 </article>
                 <div className="technical_section_1"></div>
