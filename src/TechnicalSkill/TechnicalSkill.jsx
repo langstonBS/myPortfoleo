@@ -20,6 +20,7 @@ export default function TechnicalSkill() {
                         <li><p className="technical_paragraph">HTML</p></li>
                         <li><p className="technical_paragraph">SQL</p></li>
                         <li><p className="technical_paragraph">Jest</p></li>
+                        <li><p className="technical_paragraph">Python</p></li>
                         <li><p className="technical_paragraph">React</p></li>
                         <li><p className="technical_paragraph">Express </p></li>
                         <li><p className="technical_paragraph">Node.js </p></li>
