@@ -133,14 +133,16 @@ p, a {
         padding: 0rem;
         border: 0rem;
         overflow: hidden;
-        background-color: black;
+        // background-color: black;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         text-align: center;
-        border-top: black 1rem solid;
-        border-bottom: black 1rem solid;
+        border-top: black .25rem solid;
+        border-left: black .25rem solid;
+        border-right: black .25rem solid;
+        border-bottom: black .5rem solid;
         
 
           ul{
