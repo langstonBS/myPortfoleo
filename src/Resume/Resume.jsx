@@ -14,18 +14,6 @@ export default function Resume() {
                 <div className="resume_section_4"></div>
                 <div className="resume_section_5"></div>
                 <div className="resume_section_6"></div>
-<<<<<<< HEAD
-                <div className="resume_section_7">
-                    <p className="resume_paragraph_type">
-                        Software Languages: Javascript | CSS | HTML | SQL •
-                        <br /> Frameworks + Libraries: React | Express | Node.js | Next.js | Jest
-                        <br />Databases: MongoDB | PostgreSQL
-                        <br />Services: Google Cloud | Amazon Recognition | Stripe | Cloudinary
-                        <br />Programs: Adobe Creative Suite Photoshop | InDesign | Illustrator | AfterEffects • Microsoft Office 365 Word | Excel | PowerPoint | Access 
-                    </p>    
-                </div>
-                     <div className="sume_section_8"></div>
-=======
                 <section className="resume_section_7">
                     <h1 className="resume_label_type">
                         Technical Skills
@@ -50,7 +38,6 @@ export default function Resume() {
 
                 </section>
                 <div className="resume_section_8"></div>
->>>>>>> 5a92b0135f0ec53f5b239266867dfce5ba9771af
                 <div className="resume_section_9"></div>
                 <div className="resume_section_10">
                     <h1 className="resume_label_type">ABOUT ME</h1>
@@ -96,10 +83,7 @@ export default function Resume() {
                 <div className="resume_section_13"></div>
                 <div className="resume_section_14"></div>
                 <div className="resume_section_15">
-<<<<<<< HEAD
-=======
                     <h1 className="resume_label_type">SKILLS INVENTORY</h1>
->>>>>>> 5a92b0135f0ec53f5b239266867dfce5ba9771af
                     <ul>
                         <li>Software Programming + Development</li>
                         <li>Web Development</li>
@@ -110,11 +94,7 @@ export default function Resume() {
                         <li>Online Instruction</li>
                         <li>Documentation</li>
                         <li>Public Speaking</li>
-<<<<<<< HEAD
-                        <li>Problem Solving & Listening</li>
-=======
                         <li>Problem Solving and Listening</li>
->>>>>>> 5a92b0135f0ec53f5b239266867dfce5ba9771af
                         <li>Light Project Management</li>
                         <li>Interpersonal Communication</li>
                         <li>Client Relationship Cultivation</li>
@@ -126,15 +106,11 @@ export default function Resume() {
                         <li>Conflict Resolution</li>
                         <li>Organizational Skills</li>
                     </ul>
-<<<<<<< HEAD
-=======
-
->>>>>>> 5a92b0135f0ec53f5b239266867dfce5ba9771af
                 </div>
                 <div className="resume_section_16"></div>
             </div>
         </>
 
-    )      
-          
+    )
+
 }
